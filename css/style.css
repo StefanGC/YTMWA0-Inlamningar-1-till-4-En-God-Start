@@ -1,0 +1,23 @@
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255,255,255);
+    background-color: rgb(63,81,181);
+}
+
+.container {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.mdl-navigation__link {
+    transition: all 0.5s;
+    min-width: 120px;
+    text-align: center;
+}
+
+.mdl-navigation__link:hover {
+    background-color: rgb(255, 255, 255);
+    color: black !important;
+    font-weight: bold;
+    transform: scale(1.2);
+}
