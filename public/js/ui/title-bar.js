@@ -36,13 +36,6 @@ export class TitleBar extends BaseElement {
                         </nav>
                     </div>
                 </header>
-                <div class="mdl-layout__drawer">
-                    <span class="mdl-layout-title">${this.title}</span>
-                    <nav class="mdl-navigation">
-                        ${links}
-                        <a class="mdl-navigation__link" href="./app.html">Vår app</a>
-                    </nav>
-                </div>
                 <main class="mdl-layout__content">
                     <div class="page-content"><!-- Your content goes here --></div>
                 </main>

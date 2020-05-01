@@ -1,0 +1,52 @@
+.media-list {
+  padding-inline-start: 0px;
+}
+ 
+ .to-do-list-container {
+    display: block;
+    width: 100%;
+ }
+  
+  .new-task {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    border-width: 2px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .test-label {
+    text-align: center;
+    color: white;
+  }
+  
+  .task-container {
+    width: 100%;
+    background-color: azure;
+    margin-bottom: 8px;
+    font-size: 16px;
+    border-left: 8px solid aqua !important;
+  }
+  
+  .task { 
+    margin: 0;
+    /* padding: 10px 0px 10px 10px; */
+  }
+  
+  .delete-button {
+    background-color: black;
+    border-radius: 13px;
+    height: 23px;
+    color: white;
+    border-width: 0px;
+    font-weight: bolder;
+  }
+  
+  .button-container {
+    position: relative;
+    float: right;
+    margin: -32px 10px;
+  }
