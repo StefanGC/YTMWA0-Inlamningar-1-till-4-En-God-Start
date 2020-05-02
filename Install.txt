@@ -1,7 +1,0 @@
-npm init -yes
-npm install -save es6-module-loader
-npm install -save jquery
-npm install -save material-design-lite
-npm install -save systemjs
-npm install -save traceur
-npm update
