@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import { AppToDoList } from "./to-do-list/app";
 import { EmployeeList } from "./List-of-employees/Employee-list";
+import { SignIn } from "./sign-in";
 
 export class WelcomeMessage extends React.Component {
 	constructor(props) {
@@ -50,11 +51,16 @@ export class WelcomeMessage extends React.Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="rw">
+				<div className="row">
 					<h1 className="text-primary">My React App</h1>
+				</div>
+				<div className="row">
 					<p>
 						Här kan du se en prototyp av applikationen som jag vill utveckla.
 					</p>
+				</div>
+				<div className="row">
+					<SignIn />
 				</div>
 				<div className="row">
 					<div className="col text-center">
