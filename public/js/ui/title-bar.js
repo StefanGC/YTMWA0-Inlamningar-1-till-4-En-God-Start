@@ -33,6 +33,7 @@ export class TitleBar extends BaseElement {
                         <nav class="mdl-navigation mdl-layout--large-screen-only">
                             ${links}
                             <a class="mdl-navigation__link" href="./app.html">Vår app</a>
+                            <a class="mdl-navigation__link" href="./calendar.html">Din kalender</a>
                         </nav>
                     </div>
                 </header>
