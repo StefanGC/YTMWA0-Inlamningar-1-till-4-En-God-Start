@@ -34,6 +34,10 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: "./source/app.html",
       filename: "./app.html"
+    }), 
+    new HtmlWebPackPlugin({
+      template: "./source/schools-available.html",
+      filename: "./schools-available.html"
     })
   ]
 };

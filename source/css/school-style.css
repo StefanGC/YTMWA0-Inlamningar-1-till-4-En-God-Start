@@ -1,0 +1,19 @@
+#Cities, #Schools, #SchoolInfo, #ChosenSchools {
+    background: rgb(138, 198, 247);
+    width: 100%;
+    border-radius: 25px;
+    margin: 50px 5px 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+#citySelect, #schoolSelect { margin: 55px auto; }
+
+#SchoolInfo p {
+    text-align: justify;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#ChosenSchools { margin-top: 5px;}

@@ -1,0 +1,63 @@
+[
+    {   
+        "id": 1,
+        "schoolname": "Apelrydsskolan",
+        "cityid": "1",
+        "numberofstudents": "800"
+    },{
+        "id": 2,
+        "schoolname": "Östra Karups skola",
+        "cityid": "1",
+        "numberofstudents": "825"
+    },{
+        "id": 3,
+        "schoolname": "Backaskolan",
+        "cityid": "1",
+        "numberofstudents": "850"
+    },{
+        "id": 4,
+        "schoolname": "Helsingborgs Sportgymnasium",
+        "cityid": "2",
+        "numberofstudents": "875"
+    },{
+        "id": 5,
+        "schoolname": "International school of Hbg",
+        "cityid": "2",
+        "numberofstudents": "900"
+    },{
+        "id": 6,
+        "schoolname": "Filbornaskolan",
+        "cityid": "2",
+        "numberofstudents": "925"
+    },{
+        "id": 7,
+        "schoolname": "Gymnasieskolan Vipan",
+        "cityid": "3",
+        "numberofstudents": "950"
+    },{
+        "id": 8,
+        "schoolname": "Polhemskolan",
+        "cityid": "3",
+        "numberofstudents": "975"
+    },{
+        "id": 9,
+        "schoolname": "Östervångsskolan",
+        "cityid": "3",
+        "numberofstudents": "1000"
+    },{
+        "id": 10,
+        "schoolname": "Bladins International School of Malmö",
+        "cityid": "4",
+        "numberofstudents": "1025"
+    },{
+        "id": 11,
+        "schoolname": "Mariaskolan",
+        "cityid": "4",
+        "numberofstudents": "1050"
+    },{
+        "id": 12,
+        "schoolname": "Ängsdals skola",
+        "cityid": "4",
+        "numberofstudents": "1075"
+    }
+]
