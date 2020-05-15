@@ -21,3 +21,7 @@ Alternativ 2: installera alla beroenden med den exakta versionen som finns i pac
 Starta projektet
 
 ```$ npm start```
+
+### Uppdate 1
+För att testa prototypen klicka [här](http://localhost:9000/schools-available.html)
+
