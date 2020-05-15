@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import ReactDOM from "react-dom";
+import PropTypes from 'prop-types';
 import { CreateWishSchool } from "./create-wish-list";
+
 
 export class CreateSchoolInfo extends React.Component {
     constructor(props) {
@@ -66,3 +68,8 @@ export class CreateSchoolInfo extends React.Component {
     }
 }
 
+CreateSchoolInfo.propTypes = {
+    error: PropTypes.bool,
+    isLoaded: PropTypes.bool,
+    items: PropTypes.array
+}

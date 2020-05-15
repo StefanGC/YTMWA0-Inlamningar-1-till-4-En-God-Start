@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import ReactDOM from "react-dom";
+import PropTypes from 'prop-types';
 import { CreateSchoolMenu } from "./create-school-menu";
+
 
 export class CreateCitiesMenu extends React.Component {
     constructor(props) {
@@ -61,3 +63,8 @@ export class CreateCitiesMenu extends React.Component {
     }
 }
 
+CreateCitiesMenu.propTypes = {
+    error: PropTypes.bool,
+    isLoaded: PropTypes.bool,
+    items: PropTypes.array
+}
