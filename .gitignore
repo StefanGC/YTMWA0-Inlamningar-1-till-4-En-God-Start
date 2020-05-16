@@ -25,3 +25,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Task requirements
+/public/app.html
+/public/app.js
