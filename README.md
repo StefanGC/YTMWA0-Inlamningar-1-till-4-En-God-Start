@@ -18,6 +18,10 @@ Alternativ 2: installera alla beroenden med den exakta versionen som finns i pac
 
 ```$ npm ci ```
 
+Bygg projektet
+
+```$ npm run build```
+
 Starta projektet
 
 ```$ npm start```
