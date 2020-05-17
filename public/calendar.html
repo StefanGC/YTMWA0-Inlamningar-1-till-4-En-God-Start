@@ -20,6 +20,39 @@
     <script src='./lib/google-calendar/main.js'></script>
   </head>
   <body>
+    <header class="mdl-layout__header is-casting-shadow">
+      <nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark" style="height: 64px;" }="">
+        <a class="navbar-brand" href="index.html"><strong>Digital plattform </strong></a>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"> <a class="nav-link">
+              Startsida
+            </a></li>
+        <li class="nav-item"> <a class="nav-link">
+              Affärsplan
+            </a></li>
+        <li class="nav-item"> <a class="nav-link">
+              Projektidé
+            </a></li>
+            <li class="nav-item"> <a class="nav-link" href="./app.html">Vår app</a></li>
+            <li class="nav-item"> <a class="nav-link" href="./schools-available.html">Skolor Tillgängliga</a></li>
+            <li class="nav-item"> <a class="nav-link" href="./calendar.html">Din kalender</a></li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <div class="container">
       <h3 class="text-primary">Hej och välkommen till din kalender</h3>
       <div id="myCalendar"></div>
@@ -30,6 +63,10 @@
 
       <pre id="content" style="white-space: pre-wrap;"></pre>
     </div>
+
+    <footer class="page-footer font-small blue pt-4">
+      <div class="footer-copyright text-center py-3">© 2020 Copyright Stefan Gillsbro Carrillo</div>
+  </footer>
 
     <script src="./js/google-calendar.js"></script>
 

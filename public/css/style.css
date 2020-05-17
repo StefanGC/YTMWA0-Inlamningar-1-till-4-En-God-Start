@@ -9,15 +9,17 @@ footer.page-footer .footer-copyright {
     margin-top: 20px;
 }
 
-.mdl-navigation__link {
+.nav-link {
     transition: all 0.5s;
     min-width: 120px;
     text-align: center;
 }
 
-.mdl-navigation__link:hover {
+.nav-link:hover {
     background-color: rgb(255, 255, 255);
     color: black !important;
     font-weight: bold;
     transform: scale(1.2);
 }
+
+.navbar-dark .navbar-nav .nav-link {color: white;}
