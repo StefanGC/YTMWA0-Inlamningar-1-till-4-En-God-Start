@@ -15,56 +15,63 @@
 	
 </head>
 <body>
-	<header class="mdl-layout__header is-casting-shadow">
-		<nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark" style="height: 64px;" }="">
-			<a class="navbar-brand" href="index.html"><strong>Digital plattform </strong></a>
-			
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item"> <a class="nav-link">
-						Startsida
-					</a></li>
-			<li class="nav-item"> <a class="nav-link">
-						Affärsplan
-					</a></li>
-			<li class="nav-item"> <a class="nav-link">
-						Projektidé
-					</a></li>
-					<li class="nav-item"> <a class="nav-link" href="./app.html">Vår app</a></li>
-					<li class="nav-item"> <a class="nav-link" href="./schools-available.html">Skolor Tillgängliga</a></li>
-					<li class="nav-item"> <a class="nav-link" href="./calendar.html">Din kalender</a></li>
-				</ul>
-				<ul class="navbar-nav nav-flex-icons">
-					<li class="nav-item">
-						<a class="nav-link"><i class="fab fa-facebook-f"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link"><i class="fab fa-twitter"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link"><i class="fab fa-instagram"></i></a>
-					</li>
-				</ul>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header is-casting-shadow">
+			<nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark" style="height: 64px;" }="">
+				<a class="navbar-brand" href="index.html"><strong>Digital plattform </strong></a>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"> <a class="nav-link">
+								Startsida
+							</a></li>
+						<li class="nav-item"> <a class="nav-link">
+								Affärsplan
+							</a></li>
+						<li class="nav-item"> <a class="nav-link">
+								Projektidé
+							</a></li>
+						<li class="nav-item"> <a class="nav-link" href="./app.html">Vår app</a></li>
+						<li class="nav-item"> <a class="nav-link" href="./schools-available.html">Skolor
+								Tillgängliga</a>
+						</li>
+						<li class="nav-item"> <a class="nav-link" href="./calendar.html">Din kalender</a></li>
+					</ul>
+					<ul class="navbar-nav nav-flex-icons">
+						<li class="nav-item">
+							<a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link"><i class="fab fa-instagram"></i></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main class="mdl-layout__content">
+			<div class="page-content">
+				<div class="container">
+					<h1 class="text-primary">Här kan du se alla tillgängliga skolor</h1>
+					<div class="row">
+						<div class="col" id="Cities"></div>
+
+						<div class="col" id="Schools" style="visibility: hidden"></div>
+
+						<div class="col" id="SchoolInfo" style="visibility: hidden"></div>
+					</div>
+
+					<div class="row">
+						<div class="col" id="ChosenSchools" style="visibility: hidden"></div>
+					</div>
+				</div>
 			</div>
-		</nav>
-	</header>
-	<div class="container">
-		<h1 class="text-primary">Här kan du se alla tillgängliga skolor</h1>
-		<div class="row">
-			<div class="col" id="Cities"></div>
-
-			<div class="col" id="Schools" style="visibility: hidden"></div>
-
-			<div class="col" id="SchoolInfo" style="visibility: hidden"></div>
-		</div>
-
-		<div class="row">
-			<div class="col" id="ChosenSchools" style="visibility: hidden"></div>
-		</div>
-		
-   </div>
-   <footer class="page-footer font-small blue pt-4">
-		<div class="footer-copyright text-center py-3">© 2020 Copyright Stefan Gillsbro Carrillo</div>
-	</footer>
+		</main>
+		<footer class="page-footer font-small blue pt-4">
+			<div class="footer-copyright text-center py-3">© 2020 Copyright Stefan Gillsbro Carrillo</div>
+		</footer>
+	</div>
 </body>
 </html>
