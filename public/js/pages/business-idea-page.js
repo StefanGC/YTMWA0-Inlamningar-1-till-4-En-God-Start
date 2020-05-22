@@ -25,8 +25,8 @@ export class BusinessIdeaPage extends Page {
         `);
         p2.appendToElement(this.element);
 
-        let v1 = new Video('./video/Stefans Hisspresentation.mp4');
-        v1.appendToElement(this.element);
+        // let v1 = new Video('./video/Stefans Hisspresentation.mp4');
+        // v1.appendToElement(this.element);
 
     }
     
